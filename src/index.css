@@ -18,3 +18,22 @@ body {
   height: 250px;
   overflow: hidden;
 }
+
+ul
+	{
+		list-style-type: none;
+		width:25%;
+		padding:0px;
+	}
+	li
+	{
+		display : inherit;
+		padding:8px;
+		margin:5px;
+    border : 1px solid #ccc;
+    cursor: pointer;
+  }
+  .user-details{
+    border : 1px solid #ccc;
+    width: 25%;
+  }
